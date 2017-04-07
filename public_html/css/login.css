@@ -1,0 +1,55 @@
+::-webkit-input-placeholder {
+    color: green;
+    font-weight: lighter;
+    text-align: center;
+}
+:-moz-placeholder {
+    color: green;
+    font-weight: lighter;
+    text-align: center;
+}
+::-moz-placeholder {
+    color: green;
+    font-weight: lighter;
+    text-align: center;
+}
+:-ms-input-placeholder {
+    color: green;
+    font-weight: lighter;
+    text-align: center;
+}
+
+		a { font-weight: bold; }
+
+
+                        #container {
+                                font-weight:lighter;
+                                font-family: Helvetica, Arial, FreeSans, san-serif;
+                                color: white;
+                        }
+
+
+			
+			/* Regular Form Styles */
+
+			form label{
+				display: block;
+				font-size: 18px;
+				color: white;
+				font-weight: bold;
+			}
+			form input{
+				display: block;
+				margin: 5px 10px 10px 15px;
+				width: 85%;
+				background: white;
+				border: 1px solid white;
+				padding: 5px;
+				color: green;
+				font-size: 20px;
+                                font-weight: bold;
+                                text-align: center;
+			}
+			form input:focus{
+                                border: 1px solid white;
+			}

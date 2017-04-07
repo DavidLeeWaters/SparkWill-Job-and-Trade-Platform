@@ -1,0 +1,249 @@
+.skillstext {
+   -webkit-user-select: none; /* Safari / Chrome */        
+   -moz-user-select: none; /* Fire fox */
+   -ms-user-select: none; /* IE 10+ */
+}
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS */   
+   white-space: -moz-pre-wrap; /* FF */    
+   white-space: -pre-wrap;     /* Opera < 7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+.fbbutton {
+font-family: Arial, sans-serif;  
+line-height: 1.4;
+background: #5f7ec1;
+border: 0;
+border-radius: 2px;
+box-sizing: border-box;
+color: white;
+cursor: pointer;
+font-size: 16;
+padding: 10px 24px;
+transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fbbutton:hover {
+background: #3B5998 !important;
+}
+.mainnewbutton {
+font-family: Arial, sans-serif;  
+line-height: 1.4;
+background: green;
+border: 0;
+border-radius: 2px;
+box-sizing: border-box;
+color: white;
+cursor: pointer;
+font-size: 16;
+padding: 10px 24px;
+transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mainnewbutton:hover {
+background: limegreen!important;
+}
+.mainredbutton {
+font-family: Arial, sans-serif;  
+line-height: 1.4;
+background: #b3001e;
+border: 0;
+border-radius: 2px;
+box-sizing: border-box;
+color: white;
+cursor: pointer;
+font-size: 16;
+padding: 10px 24px;
+transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mainredbutton:hover {
+background: orangered!important;
+}
+.newbutton {
+font-family: Arial, sans-serif;  
+line-height: 1.4;
+background: #00b33c;
+border: 0;
+border-radius: 2px;
+box-sizing: border-box;
+color: white;
+cursor: pointer;
+font-size: 16;
+padding: 10px 24px;
+transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.newbutton:hover {
+background: green!important;
+}
+.redbutton {
+font-family: Arial, sans-serif;  
+line-height: 1.4;
+background: tomato;
+border: 0;
+border-radius: 2px;
+box-sizing: border-box;
+color: white;
+cursor: pointer;
+font-size: 16;
+padding: 10px 24px;
+transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.redbutton:hover {
+background: red!important;
+}
+::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: limegreen;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: green;
+}
+
+.newblack_overlay{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        min-height: 100%;
+    background: #70bg32;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: black;
+        z-index: 1100;
+        -moz-opacity: 0.9;
+        opacity:.90;
+        filter: alpha(opacity=90);
+    }
+.searchuser_content {
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        width: 50%;
+        height: 75%;
+        padding: 16px;
+        border: 3px solid limegreen;
+        border-radius: 10%;
+        background: lightgreen;
+        overflow: auto;
+    }
+.newwhite_content {
+        position: absolute;
+        top: 25%;
+        left: 33.7%;
+        width: 30%;
+        height: 20%;
+        padding: 16px;
+        border: 3px solid limegreen;
+        border-radius: 10%;
+        background: limegreen;
+        z-index:1200;
+        overflow: auto;
+    }
+.newmight_content {
+        position: absolute;
+        top: 25%;
+        left: 28%;
+        width: 520px;
+        height: 250px;
+        z-index:1200;
+        overflow: auto;
+    }
+.black_overlay{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        min-height: 100%;
+    background: #70bg32;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: -webkit-linear-gradient( to left top, white, #45FE48);
+    background: -moz-linear-gradient( to left top, white, #45FE48);
+    background: -ms-linear-gradient( to left top, white, #45FE48);
+    background: -o-linear-gradient( to left top, white, #45FE48);
+    background: linear-gradient( to left top, white, #45FE48);
+        z-index: 1100;
+        -moz-opacity: 0.87;
+        opacity:.87;
+        filter: alpha(opacity=87);
+    }
+.sblack_overlay{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        min-height: 100%;
+    background: #70bg32;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: -webkit-linear-gradient( to left top, white, #45FE48);
+    background: -moz-linear-gradient( to left top, white, #45FE48);
+    background: -ms-linear-gradient( to left top, white, #45FE48);
+    background: -o-linear-gradient( to left top, white, #45FE48);
+    background: linear-gradient( to left top, white, #45FE48);
+        z-index: 1151;
+        -moz-opacity: 0.25;
+        opacity: 0.25;
+        filter: alpha(opacity=25);
+    }
+.white_content {
+        position: absolute;
+        top: 24%;
+        left: 33.7%;
+        width: 30%;
+        height: 57%;
+        padding: 16px;
+        border: 3px solid limegreen;
+        border-radius: 10%;
+    background: -webkit-linear-gradient( to right top, green, white);
+    background: -moz-linear-gradient( to right top, green, white);
+    background: -ms-linear-gradient( to right top, green, white);
+    background: -o-linear-gradient( to right top, green, white);
+    background: linear-gradient( to right top, green, white);
+        z-index:1200;
+        overflow: auto;
+    }
+
+.bello_overlay{
+        position: fixed;
+        z-index: 1004;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        min-height: 100%;
+    background: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        -moz-opacity: 0.0;
+        opacity:.00;
+        filter: alpha(opacity=00);
+    }
+.signup_content {
+        position: absolute;
+        top: 20%;
+        right: 0%;
+        width: 30%;
+        height: 72%;
+        padding: 16px;
+        border: 3px solid limegreen;
+        border-radius: 10%;
+    background: -webkit-linear-gradient( to left top, green, white);
+    background: -moz-linear-gradient( to left top, green, white);
+    background: -ms-linear-gradient( to left top, green, white);
+    background: -o-linear-gradient( to left top, green, white);
+    background: linear-gradient( to left top, green, white);
+        z-index:1200;
+        overflow: auto;
+    }

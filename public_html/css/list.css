@@ -1,0 +1,140 @@
+a.maintabs:hover {
+   background: #1d771d;
+}
+.xrox {
+ height: 40px;
+ width: 40px;
+}
+select {
+color: forestgreen; 
+font-weight: bold;
+}
+select option { 
+  font-weight: bold;
+} 
+#leftCol {
+    position: fixed;
+    width: 150px;
+    font-size: 21px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 0;
+    bottom: 0;
+}
+
+.wrapper {
+    position: relative;            
+    margin-left: 13%;
+}
+
+body {
+    background: white;
+    font-size: 100%;
+    color: black;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.65em;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+header {
+    position: fixed;
+    z-index: 1020;
+    width: 100%;
+    max-width: 100%;
+    height: 42px;
+    background: ForestGreen;
+    border-bottom: solid 1px green;
+    -moz-box-shadow:    inset 1px 0px 1px 0px white;
+    -webkit-box-shadow: inset 1px 0px 1px 0px white;
+    box-shadow:         inset 1px 0px 1px 0px white;
+}
+
+#main {
+    padding-top: 70px;
+}
+
+nav {
+    position: relative;
+    z-index: 1010;
+    margin-top: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav a {
+    position: relative;
+    z-index: 1010;
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 0% 1%;
+    text-decoration: none;
+    color: white;
+}
+
+
+* {margin: 0; padding: 0;}
+ 
+dive {
+  margin: 20px;
+}
+ 
+ule {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+h3e {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+.lie img {
+  float: left;
+}
+ 
+.lie p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+.lie {
+  list-style: none;
+  padding: 10px;
+  overflow: auto;
+  opacity: 0.8;
+}
+ 
+.lie:hover {
+  background: lightgreen;
+  opacity: 1.0;
+}
+
+.bpic {
+    border:1px solid #021a40;
+    margin: 0 15px 0 0;
+}
+
+.tooltip {
+    text-decoration:none;
+}
+
+.tooltip span {
+    display:none;
+}
+
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+    border:1px solid #021a40;
+    box-shadow: 0 0 40px white;
+}
+
+.fixedbutton {
+    position: fixed;
+    top: 6.5%;
+    right: 0px; 
+}

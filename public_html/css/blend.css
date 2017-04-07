@@ -1,0 +1,69 @@
+#leftCol {
+    position: fixed;
+    width: 150px;
+    font-size: 21px;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
+.wrapper {
+    position: relative;            
+    margin-left: 150px;
+}
+
+body {
+    background: white;
+    font-size: 100%;
+      color: black;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.65em;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: forestgreen;
+}
+
+#main {
+    padding-top: 70px;
+}
+
+nav {
+    margin-top: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 0% 1%;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bpic { 
+   border:1px solid #021a40;
+}

@@ -1,0 +1,7 @@
+[08-Jul-2016 23:59:37 UTC] PHP Fatal error:  Call to undefined function int() in /home/davidwaters/public_html/createquestions.php on line 37
+[09-Aug-2016 17:35:17 UTC] PHP Fatal error:  Call to undefined function endsWith() in /home/davidwaters/public_html/list.php on line 378
+[21-Aug-2016 21:52:34 UTC] PHP Fatal error:  Call to undefined function endsWith() in /home/davidwaters/public_html/test.php on line 49
+[23-Aug-2016 19:18:05 UTC] PHP Fatal error:  Call to undefined function extracttext() in /home/davidwaters/public_html/srfajax.php on line 48
+[17-Sep-2016 05:01:39 UTC] PHP Fatal error:  Call to undefined function isempty() in /home/davidwaters/public_html/new.php on line 128
+[17-Sep-2016 05:01:53 UTC] PHP Fatal error:  Call to undefined function isnull() in /home/davidwaters/public_html/new.php on line 128
+[17-Sep-2016 05:03:28 UTC] PHP Fatal error:  Function name must be a string in /home/davidwaters/public_html/new.php on line 128
